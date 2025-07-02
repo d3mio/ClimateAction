@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E0;
+    color: #141E46;
+}
+
+main{
+    width: 50%;
+    margin: 30px auto;
+    background: #fff;
+    color: #141E46;
+}
+
+h2{
+    text-align: center;
+    color: #141E46;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    align-items: flex-end;
+}
+
+fieldset{
+    border: 2px solid #249553;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    font-weight: bold;
+    color: #1b743f;
+}
+
+label{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    color: #141E46;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+
+input,textarea,select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #44ae7c;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    color: #141E46;
+    text-align: left;
+}
+
+input:focus, textarea:focus, select:focus{
+    border-color: #41B06E;
+    outline: none;
+    box-shadow: 0 0 5px rgba(65, 176, 110, 0.5);
+}
+
+#charCount{
+    font-size: 14px;
+    color: #666;
+    margin-top: -8px;
+    text-align: right;
+    width: 100%;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    font-size: 2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.rating input:checked ~label,
+.rating label:hover,
+.rating label:hover ~label{
+    color: gold;
+}
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group input[type="radio"]{
+    margin: 10px;
+    width: auto;
+}
+
+button{
+    background: #41B06E;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background: #141E46;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #141E46;
+}
+
+footer a{
+    text-decoration: none;
+    color: #41B06E;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Action - Home</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/volunteer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/mainLogo.png" alt="Climate Logo">
+                <a href="../Student_2/home.html"> <h1>EcoAction</h1></a>
+            </div>
+            <ul>
+                <li><a href="../Student_2/home.html" >Home</a></li>
+                <li><a href="../student_1/volunteer.html" class="active">Volunteer</a></li>
+                <li><a href="../student_2/table.html">Data</a></li>
+                <li><a href="../student_3/feedback.html">Feedback</a></li>
+                <li><a href="../student_3/team.html">Team</a></li>
+                <li><a href="../student_4/profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="volunteer-section">
+        <section id="climate-action-volunteer" class="info-box">
+            <h2 style="font-size: 40px;">Volunteer for Climate Action</h2>
+            <p>Join our programs to fight climate change through environmental conservation, renewable energy, wildlife protection, and sustainable farming.</p>
+            
+            <h2>Why Volunteer?</h2>
+            <p>Help address the urgent impacts of climate change and gain valuable sustainability experience.</p>
+            
+            <h2>Our Projects:</h2>
+            <ul>
+                <li><strong>Environmental Conservation</strong>: Reforestation and habitat restoration.</li>
+                <li><strong>Wildlife & Marine Conservation</strong>: Protect endangered species.</li>
+                <li><strong>Regenerative Agriculture</strong>: Support sustainable farming.</li>
+                <li><strong>Renewable Energy</strong>: Provide clean energy solutions.</li>
+                <li><strong>Climate Education</strong>: Raise awareness and promote eco-friendly practices.</li>
+            </ul>
+            
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li><strong>Direct Impact</strong>: Tackle climate change where it's needed most.</li>
+                <li><strong>Cultural Exchange</strong>: Experience new cultures and perspectives.</li>
+                <li><strong>Sustainable Travel</strong>: Eco-friendly travel with B-Corp certification.</li>
+                <li><strong>Support Communities</strong>: Amplify grassroots organizations' efforts.</li>
+            </ul>
+            
+            <h2>Take Action</h2>
+            <p>Join us today for a sustainable tomorrow.</p>
+        </section>
+
+        <div class="filters">
+            <label for="sorting">Sort by:</label>
+            <select id="sorting" class="dropdown">
+                <option value="popularity">Most Popular</option>
+                <option value="price">Price (Low to High)</option>
+                <option value="duration">Duration (Short to Long)</option>
+            </select>
+
+            <label for="filter-duration">Filter by Duration:</label>
+            <select id="filter-duration" class="dropdown">
+                <option value="all">All</option>
+                <option value="2">2 Weeks</option>
+                <option value="3">3 Weeks</option>
+                <option value="4">4 Weeks</option>
+                <option value="5">5 Weeks</option>
+                <option value="6">6 Weeks</option>
+                <option value="10">10 Weeks</option>
+                <option value="12">12 Weeks</option>
+                <option value="15">15 Weeks</option>
+                <option value="20">20 Weeks</option>
+            </select>
+        </div>
+
+        <div class="program-cards" id="programCards">
+
+            <div class="card" data-price="1045" data-duration="3" data-popularity="3">
+                <img src="../images/volunteer/card1.jpg" alt="Marine Conservation">
+                <h3>Marine Conservation</h3>
+                <p>Protect & preserve precious marine life</p>
+                <p>Duration: 3 weeks | Program Fee: $1045</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="1430" data-duration="12" data-popularity="4">
+                <img src="../images/volunteer/card2.jpg" alt="Environmental Conservation">
+                <h3>Environmental Conservation</h3>
+                <p>Conserve unique & fragile ecosystems</p>
+                <p>Duration: 12 weeks | Program Fee: $1430</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="1645" data-duration="10" data-popularity="5">
+                <img src="../images/volunteer/card3.jpg" alt="Climate Action">
+                <h3>Climate Action</h3>
+                <p>Help tackle climate change</p>
+                <p>Duration: 10 weeks | Program Fee: $1645</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="2740" data-duration="5" data-popularity="10">
+                <img src="../images/volunteer/card4.jpg" alt="Horse Care Volunteer Project">
+                <h3>Therapeutic Horse Care Volunteer Project</h3>
+                <p>Protect the planet & preserve nature</p>
+                <p>Duration: 5 weeks | Program Fee: $2740</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="2535" data-duration="6" data-popularity="3">
+                <img src="../images/volunteer/card5.jpg" alt="Forest Conservation">
+                <h3>Forest Conservation</h3>
+                <p>Protect the planet</p>
+                <p>Duration: 6 weeks | Program Fee: $2535</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="5460" data-duration="20" data-popularity="8">
+                <img src="../images/volunteer/card6.jpg" alt="Agriculture Conservation">
+                <h3>Agriculture Conservation</h3>
+                <p>Promote sustainable farming practices</p>
+                <p>Duration: 20 weeks | Program Fee: $5460</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="card" data-price="545" data-duration="4" data-popularity="5">
+                <img src="../images/volunteer/card7.jpg" alt="Eco-Agriculture Conservation">
+                <h3>Eco-Agriculture Conservation</h3>
+                <p>Promote sustainable farming</p>
+                <p>Duration: 4 weeks | Program Fee: $545</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="reviews-container">
+        <h2>Volunteer Reviews</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <h3>Great Experience!</h3>
+                <div class="review-rating">Rating: ★★★★☆ (4/5)</div>
+                <p>Duration: 3 weeks, worth every minute! The activities were well-organized, and I learned a lot.</p>
+                <p><strong>Reviewer:</strong> John Doe | <strong>Date:</strong> March 5, 2025</p>
+            </div>
+    
+            <div class="review-card">
+                <h3>Life-changing!</h3>
+                <div class="review-rating">Rating: ★★★★★ (5/5)</div>
+                <p>The marine conservation project really opened my eyes to environmental issues. Highly recommend!</p>
+                <p><strong>Reviewer:</strong> Jane Smith | <strong>Date:</strong> February 20, 2025</p>
+            </div>
+    
+            <div class="review-card">
+                <h3>Amazing Opportunity!</h3>
+                <div class="review-rating">Rating: ★★★★☆ (4.5/5)</div>
+                <p>This was an amazing opportunity to contribute to environmental efforts. I learned so much about sustainable farming practices.</p>
+                <p><strong>Reviewer:</strong> Sarah Williams | <strong>Date:</strong> January 15, 2025</p>
+            </div>
+    
+            <div class="review-card">
+                <h3>Highly Educational!</h3>
+                <div class="review-rating">Rating: ★★★★☆ (4/5)</div>
+                <p>Spent 4 weeks volunteering in forest conservation. It was a highly educational and rewarding experience.</p>
+                <p><strong>Reviewer:</strong> Michael Lee | <strong>Date:</strong> December 30, 2024</p>
+            </div>
+        </div>
+    
+        <div class="button-container">
+            <button id="seemorereviews">See More Reviews</button>
+        </div>
+    </div>
+    
+    
+    <section class="feedback-form">
+        <h2>Give Us Your Feedback</h2>
+        <form>
+            <textarea placeholder="Write your feedback here..." required></textarea>
+            <div class="rating">
+                <span>Rating:</span>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">★</label>
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">★</label>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </section>
+
+    <a href="#" class="go-to-top" aria-label="Go to top"></a>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-name">
+                <h2 id="footer-text">EcoAction</h2>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-section">
+                    <h4>Website Links</h4>
+                    <ul>
+                        <li><a href="../Student_2/home.html">Home</a></li>
+                        <li><a href="../Student_1/volunteer.html">Volunteer</a></li>
+                        <li><a href="../Student_2/table.html">Table</a></li>
+                        <li><a href="../Student_3/feedback.html">Feedback</a></li>
+                        <li><a href="../Student_3/team.html">Team</a></li>
+                        <li><a href="../Student_4/sitemap.html">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="https://www.globalgoals.org/terms-conditions/">Conditions</a></li>
+                        <li><a href="https://www.globalgoals.org/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="https://www.globalgoals.org/cookies/">Cookies</a></li>
+                        <li><a href="https://www.globalgoals.org/anti-corruption/">Anti Corruption</a></li>
+                        <li><a href="https://www.globalgoals.org/asset-licence/">Asset License</a></li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h4>Content Pages</h4>
+                    <ul>
+                        <li><a href="../Student_1/content_ST1.html">Content 01</a></li>
+                        <li><a href="../Student_2/content_ST2.html">Content 02</a></li>
+                        <li><a href="../Student_3/content_ST3.html">Content 03</a></li>
+                        <li><a href="../Student_4/content_ST4.html">Content 04</a></li>
+                    </ul>
+                </div>
+                <div class="link-section">
+                    <h4>Student Pages(Page Editors)</h4>
+                    <ul>
+                        <li><a href="../Student_1/page_editor_ST1.html">Student 01</a></li>
+                        <li><a href="../Student_2/page_editor_ST2.html">Student 02</a></li>
+                        <li><a href="../Student_3/page_editor_ST3.html">Student 03</a></li>
+                        <li><a href="../Student_4/page_editor_ST4.html">Student 04</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 <b>United Nations</b>. All rights reserved. | Designed by <b>Group 2 SubGroup 5</b></p>
+        </div>
+    </footer>
+
+    <script>
+        const sortingDropdown = document.getElementById('sorting');
+        const filterDropdown = document.getElementById('filter-duration');
+        const programCards = document.getElementById('programCards');
+        const cards = Array.from(document.querySelectorAll('.card'));
+
+
+        sortingDropdown.addEventListener('change', sortAndFilterCards);
+        filterDropdown.addEventListener('change', sortAndFilterCards);
+
+        function sortAndFilterCards() {
+            const sortCriteria = sortingDropdown.value;
+            const filterValue = filterDropdown.value;
+
+            let filteredCards = cards;
+
+
+            if (filterValue !== "all") {
+                filteredCards = cards.filter(card => card.dataset.duration === filterValue);
+            }
+
+
+            filteredCards.sort((a, b) => {
+                const aValue = parseInt(a.dataset[sortCriteria]);
+                const bValue = parseInt(b.dataset[sortCriteria]);
+                return aValue - bValue;
+            });
+
+
+            programCards.innerHTML = '';
+            filteredCards.forEach(card => programCards.appendChild(card));
+        }
+    </script>
+
+</body>
+</html>
